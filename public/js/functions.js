@@ -13,7 +13,6 @@ function Submitdata() {
             toCur = $form.find( "select[name='sihtvaluuta']" ).val(),
             url = $form.attr( "action" );
         // Send the data using post
-        alert(date);
         var posting = $.post( url, { kuup2ev: date , l2htesumma: amount , l2htevaluuta: fromCur, sihtvaluuta: toCur } );
 
         // Put the results in a div

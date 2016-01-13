@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+}
+.container
+{
+   padding-top:100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.form_container {
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+    margin-top:100px;
+
+}
+input[type="text"],
+input[type="number"],
+#result{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+#arrow
+{
+    margin-bottom: -10px;
+
+    padding-left:30px;
+    padding-right:30px;
+    height:32px;
+    width: 32px;
+    display:inline-block;
+}
+select {
+
+    width: 40%;
+    margin-top: 10px;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+input[type="submit"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.31);
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+
+}
+input[type="submit"]:hover{
+    background: #2EBC99;
+}
+
